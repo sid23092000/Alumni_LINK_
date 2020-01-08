@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+    <img src="images/Logo5a.png" alt="alumni-link" style="width: 50%;" class="center">
+</div>
+
+    <div id="sc-edprofile" style="width: 550px;">
+        <h1 style="color: black;">Edit Profile Form</h1>
+        <!-- PROFILE IMAGE -->
+        <div class="container">
+            <h1 style="color: #eee;">Edit Profile Photo 
+                <small style="color: black; padding: .1px;">with preview</small>
+            </h1>
+            <div class="avatar-upload">
+                <div class="avatar-edit">
+                    <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
+                    <label for="imageUpload"></label>
+                </div>
+                <div class="avatar-preview">
+                    <div id="imagePreview" style="background-image: url(http://i.pravatar.cc/500?img=7);">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- PROFILE IMAGE END -->
+
+        
+        <div class="sc-container">
+          <input type="text" placeholder="Username" />
+          <input type="text" placeholder="Email Address" />
+          <input type="password" placeholder="Password" />
+          
+          <input type="text" placeholder="First Name" />
+          <input type="text" placeholder="Last Name" />
+          <input type="text" placeholder="CollegeName" />
+          <textarea placeholder="Bio" /></textarea>
+          <select>
+            <option value="">Male</option>
+            <option value="">Female</option>
+          </select>
+        <select>
+            <option value="">sem5</option>
+            <option value="">sem6</option>
+          <option value="">sem7</option>
+            <option value="">sem8</option>
+          </select>
+          <input type="text" placeholder="Facebook Profile URL" />
+          <input type="text" placeholder="Twitter Profile URL" />
+          <input type="text" placeholder="Google+ Profile URL" />
+          <input type="text" placeholder="LinkedIn Profile URL" />
+          <input type="submit" value="UpdateProfile" />
+        </div>
+      </div>
+
+</body>
+</html>
